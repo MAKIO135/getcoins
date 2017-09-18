@@ -16,8 +16,8 @@ const env = {
     var miner = await CoinHive( env.coinHive.key ); // Coin-Hive's Site Key
     await miner.start();
 
-    miner.on('found', () => console.log('Found!'))
-    miner.on('accepted', () => console.log('Accepted!'))
+    miner.on('found', () => console.log('Found!'));
+    miner.on('accepted', () => console.log('Accepted!'));
     miner.on('update', data => console.log(`
         Hashes per second: ${data.hashesPerSecond}
         Total hashes: ${data.totalHashes}
