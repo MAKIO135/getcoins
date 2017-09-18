@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/MAKIO135/getcoins#readme",
   "dependencies": {
+    "coin-hive": "^1.1.1",
     "express": "^4.15.4"
   }
 }
