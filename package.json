@@ -1,27 +1,16 @@
 {
-  "name": "getcoins",
+  "name": "miner",
   "version": "1.0.0",
   "description": "",
-  "engines": {
-    "node": "8.4.0"
-  },
-  "main": "index.js",
+  "main": "mine.js",
   "scripts": {
-    "start":" node index.js",
+    "start": "node mine.js",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MAKIO135/getcoins.git"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/MAKIO135/getcoins/issues"
-  },
-  "homepage": "https://github.com/MAKIO135/getcoins#readme",
   "dependencies": {
     "coin-hive": "^1.1.1",
-    "express": "^4.15.4"
+    "node-fetch": "^1.7.3"
   }
 }
